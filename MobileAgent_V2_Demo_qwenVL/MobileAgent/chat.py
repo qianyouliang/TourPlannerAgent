@@ -29,8 +29,8 @@ def inference_chat_v2(chat, model, api_url, api_key):
         messages.append({"role": role, "content": content})
     response = client.chat.completions.create(model=model, messages=messages)
     return response.choices[0].message.content
-api_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-api_key = "sk-f7aa51ea4e4642689a8b1b9aad83b04e"
+a_rl = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+#i_ey = "sk-f7aa51ea4e4642689a8b1b9aad83b04e"
 # print(inference_chat_v2(chat=, api_url=api_url, model="qwen-vl-plus", api_key=api_key))
 def add_response(role, prompt, chat_history, image=None):
     new_chat_history = copy.deepcopy(chat_history)
