@@ -34,7 +34,7 @@ caption_call_method = "api"
 caption_model = "qwen-vl-plus"
 
 # If you choose the api caption call method, input your Qwen api here
-qwen_api = "sk-accb300a7f214273bebe59aacd8dd72a"
+qwen_api = ""
 
 # You can add operational knowledge to help Agent operate more accurately.
 add_info = "If you want to tap an icon of an app, use the action \"Open app\". If you want to exit an app, use the action \"Home\""
