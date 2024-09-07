@@ -1,0 +1,16 @@
+torch
+torchvision
+transformers
+dashscope
+modelscope==1.15.0
+-e ./CLIP
+opencv-python
+matplotlib
+pycocotools
+timm
+SentencePiece
+tf_slim
+tf_keras
+pyclipper
+shapely
+supervision
